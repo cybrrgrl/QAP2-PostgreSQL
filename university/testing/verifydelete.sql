@@ -1,0 +1,1 @@
+SELECT * FROM enrollments WHERE student_id = (SELECT id FROM students WHERE first_name = 'Bob' AND last_name = 'Smith');
